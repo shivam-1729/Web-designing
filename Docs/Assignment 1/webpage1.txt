@@ -1,0 +1,163 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<title>AAA</title>
+	<style>
+	body {background-image: url(blue.jpg);
+		-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+		font-family: Arial, Helvetica, sans-serif;
+		color: black;}
+* {box-sizing: border-box}
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border:black;
+    background: #f1f1f1;
+}
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;}
+a:link {
+    color: #1b3154;
+}
+
+a:visited {
+    color: purple;
+}
+a:hover {font-size: 120%;}
+/* mouse over link */
+a:hover {
+    color: black;
+}
+a:active {background: red;}
+a:active {text-decoration: underline;}
+/* selected link */
+a:active {
+    color: blue;
+}
+
+ button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: .9;
+}
+
+button:hover {
+    opacity:1;
+}
+.container {
+    padding: 5%;
+    margin-top: 100px ;
+    margin-left: 25%;
+    width: 50%;
+    background: url(sky.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration:20s ; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration:20s ;
+    background-color:black ; 
+  -webkit-animation: fadein 4s;
+}
+
+@keyframes fadein {
+    from { opacity: 0.5; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0.5; }
+    to   { opacity: 1; }
+  }
+  
+}
+@-webkit-keyframes example {
+    from {background-color: #bc493a;}
+    to {background-color:black ;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    from {background-color: #bc493a;}
+    to {background-color: black;}
+}
+   
+}
+
+.submit-btn {
+
+
+}
+.signup{
+	float: right;
+	padding-right: px;
+	padding-bottom: 50;
+	margin-top: 40px;
+	margin-left: 10px;
+	color:white;
+}
+.forgot{
+	float: left;
+	padding-right: px;
+	padding-bottom: 50;
+	margin-top: 10%;
+	margin-left: 0%;
+	
+}
+	h1{text-align: center;}	
+  @media screen and (max-width: 600px) {
+    .signup,.forgot{
+       width: 50%;
+    }
+    .container{
+      width: 100%;
+      margin-top: 100px;
+      margin-left: 0%;
+      }
+	.signup{
+		margin-right:0%;
+		margin-top:5%;
+	 
+	  }
+	.forgot{
+		margin-left:0%;
+		margin-top:5%;
+	 
+	  }}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>LOGIN HERE</h1>
+		<hr>
+		<label for="USERNAME"><b>USERNAME</b></label>
+		<input type="text" name="USERNAME"  placeholder="enter your username" required>
+		<label for="psw" ><b>PASSWORD</b></label>
+		<input type="password" placeholder="enter your password here" required>
+		<button type="submit" class="submit-btn"><b>Login</b></button></div>
+<div class="signup">New to this page?<br><a href="signup.html">Signup Here</a></div>
+<div class="forgot"><a href="http://gmail.com">Forgot Password?</a>
+	</div>
+	
+	
+</body>
+</html>

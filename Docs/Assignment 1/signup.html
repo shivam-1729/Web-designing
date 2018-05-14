@@ -1,0 +1,135 @@
+
+<!DOCTYPE html>
+<html><head>
+    
+    <title>SIGNUP HERE</title>
+<style>
+body {font-family: Arial, Helvetica, sans-serif;
+    background-image:url(6.png)}
+* {box-sizing: border-box}
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: ;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: .9;
+}
+
+button:hover {
+    opacity:1;
+}
+
+
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+.container {
+  color: white;
+    padding: 16px;
+    margin: 10px 200px;
+    /*background-image: url(.jpg);*/
+    /*
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;*/
+
+background-color: #4e4f51;
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+.close {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+    color: #f44336;
+    cursor: pointer;
+}
+
+
+
+}
+
+
+@media screen and (max-width: 600px) {
+    .cancelbtn, .signupbtn {
+       width: 100%;
+    }
+    .container{width:100%;
+    margin-top:5%;
+    margin-left:0%;}
+}
+</style>
+    </head>
+<body>
+
+    <div class="container">
+      <h1>Sign Up</h1>
+      <p>Please fill in this form to create an account.</p>
+      <hr>
+      <label for="NAME"><b>Name</b></label>
+      <input type="text" placeholder="Enter Your Name" name="NAME" required><label for="NAME"><b>Gender</b></label>
+      <input type="radio" name="gender" value="male" checked> Male
+ <input type="radio" name="gender" value="female"> Female
+ <input type="radio" name="gender " value="other"> Other<br><br>
+ <label for="NAME"><b>Birth Date</b></label>
+     
+  <input type="date" name="bday" value="2000-01-01" ><br><br>
+
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <label for="psw-repeat"><b>Repeat Password</b></label>
+        <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+        <button type="button"class="cancelbtn">Cancel</button>
+        <button type="submit" class="signupbtn">Sign Up</button>
+    </div>
+
+  </form>
+
+
+
+</body>
+</html>
